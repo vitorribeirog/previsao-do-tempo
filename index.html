@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="search">
+            <input id="entry-city" type="text" placeholder="Digite o Nome da Cidade" name="search">
+            <button type="submit" name="search" onclick="getNameCity()">
+                <img id="img-search" src="https://www.svgrepo.com/show/488200/find.svg" alt="lupa">
+            </button>
+        </div>
+        <div id="infos">
+            <h2 id="city">Tempo em Gurupi</h2>
+            <p id="temp">24 °C</p>
+            <div id="sky-info">
+                <img id="img-icon" src="https://openweathermap.org/img/wn/04n.png" alt="nuvem">
+                <p id="clouds">Nublado</p>
+            </div>
+            <p id="humidity">Umidade 70%</p>
+        </div>
+    </div>
+</body>
+
+</html>
