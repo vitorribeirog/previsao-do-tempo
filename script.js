@@ -1,5 +1,5 @@
-
-const key = "a141aa38682904283d0e5d9f22191caa"
+// Inserir aqui a apiKey do openweather
+const key = ""
 
 // Função que armazena o nome da cidade
 function getNameCity() {
